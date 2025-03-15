@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-ucz_dv#-t+mu47olkl&=*o#^il@z=32fdl07tr@9)9488#65bt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['music-django-rest-mkzpbs9ts-zeeshan-aftabs-projects.vercel.app']
+
 
 
 # Application definition
@@ -61,6 +62,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'music_backend.urls'
 
