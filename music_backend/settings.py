@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ucz_dv#-t+mu47olkl&=*o#^il@z=32fdl07tr@9)9488#65bt
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "music-django-rest-58d4p5f2y-zeeshan-aftabs-projects.vercel.app",
+    "music-django-rest-1wbwl0tvf-zeeshan-aftabs-projects.vercel.app",
     "music-django-rest-mkzpbs9ts-zeeshan-aftabs-projects.vercel.app",  # Keep previous allowed hosts
 ]
 
